@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.3/slate/bootstrap.min.css" />
+    <title>Yapılacaklar Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container ">
+        <form class="row m-5 gy-2 gx-3 align-items-center">
+            <div class="col">
+                <input type="text" class="form-control" id="task" placeholder="Ne yapacaksın?">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Ekle</button>
+            </div>
+        </form>
+
+        <div class="todos" id="mt-4 todos">
+            <div class="row mb-3 border border-secondary py-3 px-2 mx-0 bg-primary">
+                <div class="col-auto ">
+                    <input type="checkbox">
+                </div>
+                <div class="col ps-0 d-flex align-items-center lead">
+                    Projeyi tamamla
+                </div>
+            </div>
+
+            <div class="row mb-3 border border-secondary py-3 px-2 mx-0 bg-primary">
+                <div class="col-auto ">
+                    <input type="checkbox">
+                </div>
+                <div class="col ps-0 d-flex align-items-center lead">
+                    Yürüyüş yap
+                </div>
+            </div>
+
+            <div class="row mb-3 border border-secondary py-3 px-2 mx-0 bg-primary">
+                <div class="col-auto ">
+                    <input type="checkbox" checked>
+                </div>
+                <div class="col ps-0 d-flex align-items-center lead">
+                    Faturaları öde
+                </div>
+            </div>
+
+            <div class="row mb-3 border border-secondary py-3 px-2 mx-0 bg-primary">
+                <div class="col-auto ">
+                    <input type="checkbox" checked>
+                </div>
+                <div class="col ps-0 d-flex align-items-center lead">
+                    Vitaminleri al
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
